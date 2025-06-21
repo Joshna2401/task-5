@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy - Online Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">ShopEasy</a>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <a href="#" id="search-btn"><i class="fas fa-search"></i></a>
+                <a href="#" id="user-btn"><i class="fas fa-user"></i></a>
+                <a href="#" id="cart-btn"><i class="fas fa-shopping-cart"></i><span id="cart-count">0</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Summer Collection 2026</h1>
+            <p>Discover our amazing products at unbeatable prices</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="product-container" id="product-container">
+            <!-- Products will be loaded dynamically from JavaScript -->
+        </div>
+    </section>
+
+    <!-- Shopping Cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart"><i class="fas fa-times"></i></span>
+            <h2>Your Cart</h2>
+            <div class="cart-content" id="cart-content">
+                <!-- Cart items will be loaded here -->
+            </div>
+            <div class="cart-footer">
+                <h3>Total: $<span id="cart-total">0</span></h3>
+                <button class="btn checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>ShopEasy</h3>
+                <p>Your one-stop shop for all your needs</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="">Home</a>
+                <a href="#products">Products</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p>Email: info@shopeasy.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 ShopEasy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

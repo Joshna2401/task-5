@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "price": 99.99,
+        "image":"wireless headphone.webp"
+    },
+    {
+        "id": 2,
+        "name": "Smart Watch",
+        "price": 199.99,
+        "image": "smart wach.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bluetooth Speaker",
+        "price": 59.99,
+        "image": "Bluetooth-speaker.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Laptop Backpack",
+        "price": 49.99,
+        "image": "Laptop BackPack.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Wireless Mouse",
+        "price": 29.99,
+        "image": "Wireleess mouse.jpg"
+    },
+    {
+        "id": 6,
+        "name": "USB-C Hub",
+        "price": 39.99,
+        "image": "USB-C Hub.jpg"
+    }
+    
+]
